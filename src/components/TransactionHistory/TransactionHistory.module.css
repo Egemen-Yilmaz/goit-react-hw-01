@@ -1,0 +1,58 @@
+.transactionHistory {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid black;
+}
+
+.transactionHistory table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tableHead {
+  background-color: black;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.tableHead th {
+  padding: 12px 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tableHead th:last-child {
+  border-right: none;
+}
+
+.tableBody tr {
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: #f5f5f5; /* Çift satırlar için açık gri */
+}
+
+.tableBody tr:hover {
+  background-color: #c7c7c7;
+}
+
+.tableBody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid black;
+  color: #333333;
+  font-size: 14px;
+}
+
+
+.tableBody td:first-child {
+  text-transform: capitalize; /* İşlem tipini büyük harfle başlat */
+}
