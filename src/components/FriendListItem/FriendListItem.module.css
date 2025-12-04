@@ -1,0 +1,87 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+}
+
+
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+.item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.friendList {
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #212121;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.statusText {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.online {
+  color: #2e7d32; /* darker green for text */
+}
+
+.offline {
+  color: #d32f2f; /* darker red for text */
+}
